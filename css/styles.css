@@ -265,20 +265,24 @@ transition: opacity 250ms cubic-bezier(0.4, 0, 0.2, 1), visibility 250ms cubic-b
         background-color: #404bbf;
         border: none;
     }
+.overlay-btn-close:hover .btn-close-svg,
+.overlay-btn-close:focus .btn-close-svg{
+    fill: #ffffff;
+}
 
 .btn-close-svg {
     fill: #2e2f42;
     transition: fill 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
-.btn-close-svg:focus,
-.btn-close-svg:hover {
-    fill: #ffffff;
-}
+
  
 .form-overlay {
     display: flex;
     flex-direction: column;     
     row-gap: 8px;    
+}
+.div-overlay {
+    margin-bottom: 8px;
 }
 .form-label {
     display: block;
@@ -313,7 +317,7 @@ transition: opacity 250ms cubic-bezier(0.4, 0, 0.2, 1), visibility 250ms cubic-b
 .overlay-input:focus,
 .overlay-input:hover,
 .overlay-input:focus-within {
-border-color: #4D5AE5;
+border-color: #4d5ae5;
 }
 .overlay-input:hover .input-svg{
     fill: #4d5ae5;
