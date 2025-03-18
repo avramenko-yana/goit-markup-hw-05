@@ -356,7 +356,7 @@ margin-bottom: 16px;
     resize: none;
     transition: border-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
-.div-overlay:last-child {
+.div-overlay.textarea-comment {
     margin-bottom: 16px
 }
 .textarea-input:focus {
